@@ -6,6 +6,7 @@ import java.util.Date;
 public class AlunoDTO implements Serializable {	 
 	private Long id;
     private String nome;
+    // A data-nasc é STRING e será convertida
     private String dtnasc;
      
     public AlunoDTO() {
